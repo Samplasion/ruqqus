@@ -3232,7 +3232,7 @@ ul.comment-section {
 
 pre code {
     word-break: break-word;
-    white-space: break-word;
+    white-space: break-spaces;
     color: $black;
 }
 
@@ -3801,4 +3801,9 @@ div.deleted.banned {
 }		
 .distinguish-mod .user-name::before {		
  content: "[M] "		
+}
+
+.in-comment-image {
+  max-height: 100px !important;
+  max-width: 100px !important;
 }

@@ -3291,7 +3291,7 @@ ul.comment-section {
 
 pre code {
     word-break: break-word;
-    white-space: break-word;
+    white-space: break-spaces;
     color: $white;
 }
 
@@ -3880,4 +3880,9 @@ div.deleted.banned {
 
 .text-admin {
     color: $admin
+}
+
+.in-comment-image {
+  max-height: 100px !important;
+  max-width: 100px !important;
 }

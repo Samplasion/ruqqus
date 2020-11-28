@@ -17094,7 +17094,7 @@ ul.comment-section {
 
 pre code {
   word-break: break-word;
-  white-space: break-word;
+  white-space: break-spaces;
   color: #FFFFFF;
 }
 
@@ -17652,3 +17652,8 @@ div.deleted.banned {
 }
 
 /*# sourceMappingURL=main_dark.css.map */
+
+.in-comment-image {
+  max-height: 100px !important;
+  max-width: 100px !important;
+}
